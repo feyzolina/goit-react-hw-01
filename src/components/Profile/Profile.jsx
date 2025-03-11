@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import styles from "./Profile.module.css";
 
-const Profile = ({ name, tag, location, image, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={styles.profileContainer}>
-      <img className={styles.avatar} src={image} alt="User avatar" />
-      <p className={styles.name}>{name}</p>
+      <img className={styles.avatar} src={avatar} alt="User avatar" />
+      <p className={styles.username}>{username}</p>
       <p className={styles.tag}>@{tag}</p>
       <p className={styles.location}>{location}</p>
 
