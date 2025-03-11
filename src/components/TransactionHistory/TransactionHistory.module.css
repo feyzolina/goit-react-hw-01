@@ -1,0 +1,14 @@
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactionTable th,
+.transactionTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.transactionTable th {
+    background-color: #f4f4f4;
+}

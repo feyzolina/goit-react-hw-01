@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.online {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.offline {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
