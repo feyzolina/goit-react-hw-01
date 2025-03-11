@@ -1,9 +1,7 @@
 .friendCard {
     width: 150px;
-    /* Kart genişliği */
     padding: 15px;
     border: 2px solid #ddd;
-    /* Kartlara border ekledik */
     border-radius: 10px;
     text-align: center;
     background-color: #fff;

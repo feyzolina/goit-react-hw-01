@@ -1,7 +1,6 @@
 .friendList {
     display: flex;
     justify-content: space-between;
-    /* Kartlar arası boşluk bırak */
     gap: 15px;
     padding: 20px;
     list-style: none;
